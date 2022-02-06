@@ -8,7 +8,7 @@ var server = http.Server(app)
 var io = socketIO(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost",
+    origin: "http://proyecto.sysmemories.com",
   }
 })
 
